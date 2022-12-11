@@ -1,0 +1,13 @@
+.container {
+  padding: 0 2rem;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 10px;
+}
+
+.card img{
+  max-height:200px;
+}
